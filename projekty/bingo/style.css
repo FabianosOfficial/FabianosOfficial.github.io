@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.43);
+    padding: 1em;
+    color: white;
+}
+
+
+body{
+    /*background-color: #212121;*/
+    color: white;
+    background: #c437a6;
+    background: linear-gradient(90deg,rgba(196, 55, 166, 1) 0%, rgba(220, 74, 106, 1) 50%, rgba(241, 105, 42, 1) 100%);
+}
+
+input{
+    margin-bottom: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input:focus{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+textarea{
+    padding: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea:focus{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+textarea:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+::placeholder{
+    color: white;
+}
+
+.bingo{
+    text-align: center;
+    padding-top: 4em;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#bingoTitle{
+    padding-top: 2em;
+}
+
+#bingo-board{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#bingo-board table{
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

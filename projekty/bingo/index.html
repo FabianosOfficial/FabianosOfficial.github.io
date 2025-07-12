@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="bingo">
+        <h1>Generator bingo</h1>
+        <br>
+        <p><h3>Rozmiar bingo:</h3></p>
+        <br>
+        <input class="glass" type="text" id="bingoSize" autocomplete="off" placeholder="n" style="width: 20em;">
+    
+        <p><h3>Wartości:</h3></p>
+        <br>
+        <textarea class="glass" type="text" id="bingoValues" autocomplete="off" placeholder="tekst1, tekst2, ..." style="height: 10em; width: 20em;"></textarea>
+        <br>
+        <button class="glass" id="bingoSizeBtn" onclick="generuj()">Generuj</button>
+    
+        <div><p><h3 id="bingoTitle"></h3></p></div>
+        <div id="bingo-board"></div>
+    </div> 
+</body>
+</html>

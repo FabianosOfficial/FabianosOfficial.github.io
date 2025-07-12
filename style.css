@@ -1,7 +1,36 @@
-#heart{
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #bee0c7;
+}
+
+#workinprogress{
+    padding-top: 15em;
     width: 400px;
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#projektyLink{
+    text-align: center;
+}
+
+
+a{
+    color: white;
+    border-radius: 16px;
+    padding: 0.5em;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #667a6b;
+}
+
+a:visited{
+    color: white;
 }
